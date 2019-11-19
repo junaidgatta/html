@@ -45,13 +45,14 @@
         <td colspan="2">english</td>
     </tr><br>
 </table>
-<br>
-    <form action="../page 2.html" method="get">
-        <p>Username: <input placeholder="Enter your name" type="text" name="username"></p>
-<p>Password: <input placeholder="Enter your password" type="password" name="pass"></p>
+
+<hr>
+    
+<form action="../page 2.html" method="get">
+        <label>Username: <input placeholder="Enter your name" type="text" name="username" required></label><br>
+<label>Password: <input placeholder="Enter your password" type="password" name="pass"></label><br>
 <textarea name="address" cols="50" rows="2">please Enter your address</textarea><br>
-<input type="submit"/>
-    </form>
+
 <hr>
 <input type="radio" name="country" value="pakistan" checked/>Pakistan<br>
 <input type="radio" name="country" value="india"/>india<br>
@@ -63,6 +64,52 @@
 <input type="checkbox" name="country" value="india"/>india<br>
 <input type="checkbox" name="country" value="australia"/>australia<br>
 <input type="checkbox" name="country" value="srilanka"/>srilanka<br>
+<br>
+<select name="food" multiple="multiple">
+    <option value=";pasta">pasta</option>
+    <option value=";chines">chines</option>
+    <option value=";desi">desi</option>
+    <option value=";italian">italian</option>
+</select>
+<hr>
+
+<input type="file" name="song"/>
+<hr>
+
+<fieldset>
+    <legend> Contact detail</legend>
+    <label>user: <input type="text" /></label><br>
+    <label>pass: <input type="text" /></label><br>
+    <label>code: <input type="text" /></label><br>
+</fieldset>
+<hr>
+
+<input type="date" name="date"/>
+<hr>
+
+<input type="email" name="email"/>
+<hr>
+
+<input type="url" name="url"/>
+<hr>
+
+<input type="search" name="search" placeholder="search"/>
+<hr>
+
+<input type="hidden" name="id" value="1002"/>
+<hr>>
+<input type="submit"/>
+    </form>
+
+
+
+    <form action="../page 2.html" method="GET">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="image" src="../subscribe.jpg" width="100px" height="80px" />
+        </form>
+
+
 </body>
 </html>
 
