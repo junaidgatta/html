@@ -1,0 +1,13 @@
+*{
+font-family: cursive;
+}
+
+.aqua{
+    color: aqua;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p+a{
+    color: blue ;
+}
