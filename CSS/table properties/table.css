@@ -1,0 +1,23 @@
+table{
+    width: 80%;
+    margin-left: 10%;
+    border: 5px solid teal;
+}
+td,th{
+    padding: 1em;
+background-color: darkcyan;
+}
+th{
+    border: 3px dotted blue;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: cursive;
+
+}
+td{
+    border: 2px solid blue;
+    empty-cells: hide;
+}
+th:hover,td:hover{
+background-color: chocolate;
+}
