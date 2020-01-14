@@ -96,7 +96,7 @@
 
 // arrays
 
-var foods=["nihari", "karhai", "biryani", "pizza"]
+// var foods=["nihari", "karhai", "biryani", "pizza"]
 
 // console.log(foods [1])
 
@@ -156,22 +156,79 @@ var foods=["nihari", "karhai", "biryani", "pizza"]
 // }
 
 
-for (var i = 1; i<=4; i++){
-    for (var j = 1; j<=i; j++){
-        console.log("*")
-        document.write("*")        
-    }
-    console.log("<br>")
-    document.write("<br>")
+// star pattern
+
+// for (var i = 1; i<=4; i++){
+//     for (var j = 1; j<=i; j++){
+//         console.log("*")
+//         document.write("*")        
+//     }
+//     console.log("<br>")
+//     document.write("<br>")
+// }
+// for (var i = 1; i <=3; i++){
+//     for (var j=3; j>=i; j--){
+//         document.write("*")
+//         console.log("*")
+//     }
+//     document.write("<br>")
+//     console.log("<br>")
+// }
+
+// var months = ["january" , "February" , "march" , "april", "may"]
+// var empty = []
+
+// for (var index = 0; index < months.length; index++) {
+//     empty.push(months[index].slice(0 , 3))    
+// }
+// console.log(empty)
+
+// var array = ["hello" , "i" , "am"]
+
+// var index=array.indexOf("i")
+
+// array_index = array.slice(0,1)+ " 0 " + array.slice(index+1)
+
+// console.log(array_index)
+// console.log(array.length)
+
+
+// var food1 = prompt("Enter_food1_amount");
+// var food2 = prompt("Enter_food2_amount");
+// var food3 = prompt("Enter_food3_amount");
+
+// var total_amount = parseInt(food1) + parseInt(food2) + parseInt(food3)
+// var amount_with_tax = total_amount + (total_amount / 100) * 17
+
+// alert(amount_with_tax);
+
+// var peoples = prompt("Enter how many peoples are sharing food")
+// console.log(amount_with_tax / peoples)
+
+var username = prompt("Enter username")
+var password = prompt("Enter password")
+
+if (username.indexOf("/")>-1 || username.indexOf("%")>-1 ||  username.indexOf("*")>-1 ||  username.indexOf("$")>-1 ||  username.indexOf("@")>-1){
+    alert("not logined")
 }
-for (var i = 1; i <=3; i++){
-    for (var j=3; j>=i; j--){
-        document.write("*")
-        console.log("*")
-    }
-    document.write("<br>")
-    console.log("<br>")
+
+else if ( password.indexOf(username)>-1){
+    alert("Enter another password")
 }
+
+else alert("login successful")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
