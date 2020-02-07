@@ -203,41 +203,82 @@
 // alert(amount_with_tax);
 
 // var peoples = prompt("Enter how many peoples are sharing food")
-// console.log(amount_with_tax / peoples)
+/* console.log(amount_with_tax / peoples)
 
-var username = prompt("Enter username")
-var password = prompt("Enter password")
 
-if (username.indexOf("/")>-1 || username.indexOf("%")>-1 ||  username.indexOf("*")>-1 ||  username.indexOf("$")>-1 ||  username.indexOf("@")>-1){
-    alert("not logined")
+// assignment*/
+
+// var username = prompt("Enter username")
+// var password = prompt("Enter password")
+
+// if (username.indexOf("/")>-1 || username.indexOf("%")>-1 ||  username.indexOf("*")>-1 ||  username.indexOf("$")>-1 ||  username.indexOf("@")>-1){
+//     alert("not logined")
+// }
+
+// else if ( password.indexOf(username)>-1){
+//     alert("Enter another password")
+// }
+
+// else alert("login successful")
+
+// assignment
+
+// var points=["10" ,"86" ,"36","33" ,"71" ,"2" ,"9" ,"45" ,"71" ,"8" ,"5"]
+// points.sort(function(a, b){return a-b});
+// document.write(points);
+
+
+
+// var q1=prompt("Urdu was declared national language of Pakistan in:");
+// var a1=1950;
+// var score=0
+
+// var q2=prompt("In which province maximum languages are spoken?");
+// var a2=Balochistan;
+
+// if (q1 == a1) {
+//     score++;
+// {
+
+// if (q2 == a2){
+//     score++;
+// }
+
+// else{
+//     alert("try again")
+// } 
+
+// var string= "My name is khan"
+
+// for (var i = 0; i < string.length; i++) {
+//     if ( string.slice (i, i + 4)  === "khan" ){
+//         string = string.slice(0, i) + "not khan" + string.slice(i + 4)
+//     }
+// }
+
+// console.log(string)
+// document.write(string)
+
+
+// var string= "My name is junaid"
+
+// for (var i = 0; i < string.length; i++) {
+//     if ( string.slice (i, i + 6)  === "junaid" ){
+//         string = string.slice(0, i) + "M.Junaid" + string.slice(i + 6)
+//     }
+// }
+
+// console.log(string)
+// document.write(string)
+
+var string="my name is khan"
+var search = string.indexOf("khan")
+
+if (search > -1){
+    string = string.slice(0, search) + "not khan" + string.slice(search + 4);
 }
 
-else if ( password.indexOf(username)>-1){
-    alert("Enter another password")
-}
-
-else alert("login successful")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(string)
 
 
 
