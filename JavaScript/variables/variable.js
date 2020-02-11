@@ -271,14 +271,94 @@
 // console.log(string)
 // document.write(string)
 
-var string="my name is khan"
-var search = string.indexOf("khan")
+// var string="my name is khan"
+// var search = string.indexOf("khan")
 
-if (search > -1){
-    string = string.slice(0, search) + "not khan" + string.slice(search + 4);
+// if (search > -1){
+//     string = string.slice(0, search) + "not khan" + string.slice(search + 4);
+// }
+
+// console.log(string)
+
+// var string="my name is khan khan khan"
+
+// var news= string.replace(/khan/g , "not khan")
+
+// console.log(news)
+
+// round number
+
+// var number = Math.round(10.59);
+
+// console.log(number)
+
+// var number = Math.ceil(10.59);
+
+// console.log(number)
+
+// var number = Math.floor(10.59);
+
+// console.log(number)
+
+// var num = 10.9985
+
+// console.log(num.toFixed(3))
+
+
+// var num = "10.9985"
+// var length = num.length
+
+// if (num.charAt(length-1)==="5"){
+//     num = num.slice(0 , length-1)+"6"
+// }
+
+// num = Number(num)
+
+// console.log(num.toFixed(3))
+
+
+// var date = new Date()
+
+// console.log(date)
+
+// var days=["sun" , "mon" , "tue" , "wed" , "thu" , "fri" , "sat"]
+
+// var day_index = date.getDay()
+
+// console.log(days[day_index])
+
+// console.log(date.getTime())
+
+// console.log(date.getFullYear())
+// console.log(date.getHours())
+// console.log(date.getMilliseconds())
+// console.log(date.getMinutes())
+// console.log(date.getMonth())
+// console.log(date.getSeconds())
+
+var date = new  Date()
+// var date = new Date("june 30, 2025")
+var saleEnd = new Date(2020 , 1 , 11 , 21 , 21 , 0 , 0)
+
+console.log(date)
+console.log(saleEnd)
+
+if (date > saleEnd){
+    console.log("saleEnd")
 }
 
-console.log(string)
+saleEnd.setFullYear(2025)
+saleEnd.setHours(13)
+saleEnd.setMinutes(59)
+saleEnd.setMonth(11)
+saleEnd.setSeconds(59)
+
+
+
+
+
+
+
 
 
 
