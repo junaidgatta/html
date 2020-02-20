@@ -336,25 +336,78 @@
 // console.log(date.getMonth())
 // console.log(date.getSeconds())
 
-var date = new  Date()
-// var date = new Date("june 30, 2025")
-var saleEnd = new Date(2020 , 1 , 11 , 21 , 21 , 0 , 0)
+// var date = new  Date()
+// // var date = new Date("june 30, 2025")
+// var saleEnd = new Date(2020 , 1 , 11 , 21 , 21 , 0 , 0)
 
-console.log(date)
-console.log(saleEnd)
+// console.log(date)
+// console.log(saleEnd)
 
-if (date > saleEnd){
-    console.log("saleEnd")
+// if (date > saleEnd){
+//     console.log("saleEnd")
+// }
+
+// saleEnd.setFullYear(2025)
+// saleEnd.setHours(13)
+// saleEnd.setMinutes(59)
+// saleEnd.setMonth(11)
+// saleEnd.setSeconds(59)
+
+// function num(one , two){
+//     alert(one + two)
+// }
+
+// num(10,10)
+
+// function hello(){
+//     alert("hi")
+// }
+
+// hello()
+
+// var date = new Date()
+// var month=["Jan" , "Feb" , "March" , "April" , "May" , "June" , "July"]
+// var month_index = date.getMonth()
+// var new_month = (month[month_index])
+
+// console.log(date.getDate() + "," + (month[month_index]) + "," + date.getFullYear() + " " + date.getHours() + ":" + date.getMinutes())
+
+
+// var orderTot;
+//  if (merchTot >= 100) {
+//  orderTot = merchTot;
+//  }
+//  else if (merchTot < 50.01) {
+//  orderTot = merchTot + 5;
+//  }
+//  else {
+//  orderTot = merchTot + 5 + (.03 * (merchTot - 50));
+//  }
+
+var day=["Mon" , "Tue" , "Wed" , "Thu" , "Fri"]
+
+function create (array,data){
+        array.push(data)
 }
 
-saleEnd.setFullYear(2025)
-saleEnd.setHours(13)
-saleEnd.setMinutes(59)
-saleEnd.setMonth(11)
-saleEnd.setSeconds(59)
+function read (array){
+    array.push(data)
+}
+
+function update (array,index,data){
+    var index = array.indexOf(keyValue);
+    array[index].Key = newKey;
+    array[index].Value = newValue;
+}
 
 
+function del (array,index){
+    array.splice(index)
+}
 
+del(day,1)
+
+console.log(day)
 
 
 
