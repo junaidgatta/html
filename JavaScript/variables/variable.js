@@ -384,35 +384,33 @@
 //  orderTot = merchTot + 5 + (.03 * (merchTot - 50));
 //  }
 
-var day=["Mon" , "Tue" , "Wed" , "Thu" , "Fri"]
+// var day=["Mon" , "Tue" , "Wed" , "Thu" , "Fri"]
 
-function create (array,data){
-        array.push(data)
-}
+// function create (array,data){
+//         array.push(data)
+// }
 
-function read (array){
-    array.push(data)
-}
+// function read (array){
+//     array.push(data)
+// }
 
-function update (array,index,data){
-    var index = array.indexOf(keyValue);
-    array[index].Key = newKey;
-    array[index].Value = newValue;
-}
-
-
-function del (array,index){
-    array.splice(index)
-}
-
-del(day,1)
-
-console.log(day)
+// function update (array,index,data){
+//     var index = array.indexOf(keyValue);
+//     array[index].Key = newKey;
+//     array[index].Value = newValue;
+// }
 
 
+// function del (array,index){
+//     array.splice(index)
+// }
 
+// del(day,1)
 
+// console.log(day)
 
+var c = document.getElementById("doc").children;
+c[2].style.backgroundColor = "yellow";
 
 
 
