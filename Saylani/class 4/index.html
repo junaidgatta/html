@@ -9,19 +9,20 @@
 
 <body>
     <form  action="www.example.com">
-        <label>username:<input type="text" name="username" size="15" maxlength="30"></label><br>
-        <label>password:<input type="password" name="password" size="15" maxlength="8"></label><br>
+        <label>username:<input type="text" name="username" placeholder="Enter your username" size="15" maxlength="30"></label><br>
+        <label>password:<input type="password" name="password" placeholder="Enter your password" size="15" maxlength="8"></label><br>
         <label>Gender: <input type="radio" name="Gender" value="Male" id="">Male
             <input type="radio" name="Gender" value="Female" id="">Female
             <input type="radio" name="Gender" value="Other" id="">Other
         </label><br>
+        <label for="date">Date of Birth:<input type="date" name="date" id="date"></label><br>
         <label>Please select your favorite music service(s): <br>
             <input type="checkbox" name="favMusic" value="iTune" id="">iTune <br>
             <input type="checkbox" name="favMusic" value="Last.fm" id="">Last.fm <br>
             <input type="checkbox" name="favMusic" value="Spotify" id="">Spotify <br>
         </label><br>
-        <label>What device do you listen to music on?</label><br>
-        <select name="devices" multiple="multiple" size="3" id="">
+        <label for="device">What device do you listen to music on?</label><br>
+        <select name="devices" multiple="multiple" size="2" id="device">
             <option value="iPod">iPod</option>
             <option value="radio" selected="select">radio</option>
             <option value="computer">computer</option>
