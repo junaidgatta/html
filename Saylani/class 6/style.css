@@ -18,6 +18,9 @@ a {
 a:link {
     color: darkorange;
 }
+a:visited{
+    color: red;
+}
 .para1 {
     text-indent: 4%;
 }
@@ -25,7 +28,16 @@ span>p {
     text-shadow: 1px 1px 1px darkgreen ;
     background-color: darkgrey;
 }
-
+input:hover{
+    background-color: royalblue;
+}
+input:focus{
+    background-color: skyblue;
+}
+button:active{
+    color: tomato;
+    background-color: red;
+}
 
 
 
