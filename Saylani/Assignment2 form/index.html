@@ -10,55 +10,126 @@
 
 <body>
     <img class="logo" src="./Images/Saylani logo.jpg" alt="Saylani_logo">
-    <p class="center"><u>STUDENT REGISTRATION FORM</u></p>
-    <div>
-        <form action="http://www.abc.com">
-            <div class="container">
+    <p class="title">STUDENT REGISTRATION FORM</p>
+    <div class="form">
+        <form action="#">
+            <div class="input_field">
                 <label for="first-name">FIRST NAME</label>
-                <input type="text" name="" id="first-name" placeholder="Enter your Name" required>
+                <input type="text" name="" id="first-name" placeholder="Enter your Name" size="30" required>
                 <p>(max 30 characters a-z and A-Z)</p>
             </div>
-            <div class="container">
+            <div class="input_field">
                 <label for="last-name">LAST NAME</label>
-                <input type="text" name="" id="last-name" placeholder="Enter last Name" required>
+                <input type="text" name="" id="last-name" placeholder="Enter last Name" size="30" required>
                 <p>(max 30 characters a-z and A-Z)</p>
             </div>
-            <label for="dob">DATE OF BIRTH</label>
-            <span><input type="date" name="" id="dob" required></span>
-            <label for="email">EMAIL ID</label>
-            <span><input type="email" name="" id="email" placeholder="Enter email address" required></span>
-            <div class="container">
+            <div class="input_field">
+                <label for="dob">DATE OF BIRTH</label>
+                <input type="date" name="" id="dob" size="30" required><br><br>
+            </div>
+            <div class="input_field">
+                <label for="email">EMAIL ID</label>
+                <input type="email" name="" id="email" placeholder="Enter email address" size="30" required>
+            </div>
+            <div class="input_field">
                 <label for="mobile">MOBILE NO</label>
-                <input type="number" name="" id="mobile" placeholder="Enter mobile number" required>
+                <input type="number" name="" id="mobile" placeholder="Enter mobile number" size="30" required>
                 <p>(10 digit number)</p>
             </div>
-            <label for="gender">GENDER</label>
-            Male:<input type="radio" name="gender" id="male">
-            Female:<input type="radio" name="gender" id="female">
-            Other:<input type="radio" name="gender" id="other"><br>
-            <label for="address">ADDRESS</label>
-            <span><textarea placeholder="Enter your address" name="" id="address" cols="30" rows="10"></textarea></span>
-
-
-
-
-
-
-
-            <br>
-            <input type="submit" value="submit">
+            <div class="input_field">
+                <label for="gender">GENDER</label>
+                Male:<input type="radio" name="gender" id="male">
+                Female:<input type="radio" name="gender" id="female">
+                Other:<input type="radio" name="gender" id="other">
+            </div>
+            <div class="input_field">
+                <label for="address">ADDRESS</label>
+                <textarea placeholder="Enter your address" name="" id="address" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input_field">
+                <label for="city">CITY</label>
+                <input type="text" name="" id="city" placeholder="Enter City Name" size="30" required>
+            </div>
+            <div class="input_field">
+                <label for="pin_code">PIN CODE</label>
+                <input type="text" name="" id="pin_code" placeholder="Enter Pin Code" size="30" required>
+            </div>
+            <div class="input_field">
+                <label for="state">STATE</label>
+                <input type="text" name="" id="state" placeholder="Enter State" size="30" required>
+            </div>
+            <div class="input_field">
+                <label for="country">COUNRTY</label>
+                <input type="text" name="" id="country" placeholder="Enter Country" size="30" required>
+            </div>
+            <div class="input_field">
+                <label for="hobbies">HOBBIES</label>
+                Drawing<input type="checkbox" name="hobbies" id="drawing">
+                Singing<input type="checkbox" name="hobbies" id="Singing">
+                Dancing<input type="checkbox" name="hobbies" id="Dancing">
+                Sketching<input type="checkbox" name="hobbies" id="Sketching">
+            </div>
+            <div class="qualification">
+                <fieldset>
+                    <legend>Qualification</legend>
+                    <table>
+                        <tr>
+                            <th>S. no.</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>(10 char max)</td>
+                            <td>(upto 2 decimal)</td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
+            <div class="input_field">
+                <label for="cource">COURCE APPLIED FOR</label>
+                BCA<input type="radio" name="cource" id="BCA">
+                B.Com<input type="radio" name="cource" id="B.COM">
+                B.Sc<input type="radio" name="cource" id="B.SC">
+                B.A<input type="radio" name="cource" id="B.A">
+            </div>
+            <div class="btn">
+                <button>Submit</button>
+                <button>Reset</button>
+            </div>
         </form>
     </div>
-
-
-
-
-
-
-
-
-
-
 </body>
 
 </html>
