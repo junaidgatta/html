@@ -8,23 +8,36 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color: blue;
+    background-color: #316dc3;
     padding: 10px 0
 }
 header>a {
     justify-content: start;
     padding: 5px;
 }
-ul {
+.social-links ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: 13px;
+}
+.header-btn ul {
     display: flex;
     padding: 0px;
     margin: 0px;
     list-style: none;
 }
-.header-dis {
+.menu ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.header-des {
     margin: auto;
 }
-.header-dis, i {
+.header-des, i {
     color: white;
 }
 i {
@@ -37,11 +50,233 @@ a {
 .header-btn li {
     padding: 8px;
     color: #427900;
-    background-color: lightgrey;
+    background-color: #f5f5f5;
     border: 1px solid black;
     margin: 0px 2px;
     font-size: 12px;
 }
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f8fa;
+    overflow: hidden;
+}
+.logo {
+    width: 200px;
+    background-color: #f7f8fa;
+}
+.menu li {
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333333;
+}
+.menu li:hover, .menu a:hover {
+    background-color: #316dc3;
+    color: #fff1ed;
+}
+/* .headerfix {
+    position: fixed;
+    width: 100%;
+} */
+.slide {
+    display: flex;
+    flex-basis: 100%;
+}
+.slideimg {
+    width: 100%;
+    height: 500px;
+}
+marquee {
+    background-color: #316dc3;
+    margin: 8px;
+    color: white;
+    padding: 5px;
+}
+.intro {
+    background-color: #f7f8fa;
+}
+.introduction {
+    font-weight: 600;
+    margin: 0px 8.3%;
+    padding-top: 30px;
+    line-height: 2;
+    text-align: justify;
+}
+.introduction p {
+    color: #666666;
+    font-family: sans-serif;
+}
+.intro-heading {
+    color: #316dc3;
+    text-align: center;
+}
+.introduction img {
+    display: flex;
+    margin: 0px auto;
+}
+.contribution-ctr {
+    background-color: #2755e9;
+    margin: 0px 0px;
+}
+.contribution-box {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 60px 60px;
+}
+.contribution h4 {
+    color: white;    
+}
+.contribution {
+    line-height: 0.5;
+}
+.contribution-ctr img {
+    height: 40px;
+}
+.contribution-ctr h2 {
+    font-weight: 500px;
+    font-size: 3em;
+    color: white;
+}
+.doing-container {
+    background-color: #f7f8fa;
+    text-align: center;
+    margin: 0px 0px;
+}
+.doing-box {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    margin: 40px 80px;
+}
+.doing {
+    font-size: 14px;
+    box-shadow: 0px 2px 05px 0px;
+    flex-basis: 32%;
+    padding: 20px 20px;
+    background-color: white;
+    margin-bottom: 40px;
+    color: #316DC3;
+}
+.doing img {
+    width: 70px;
+}
+.mission-up {
+    display: flex;
+    color: #316dc3;
+    font-family: serif;
+    text-align: center;
+    padding: 20px 40px;
+}
+.mission-des {
+    flex-basis: 66.6666%;
+}
+.mission-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mission {
+    flex-basis: 45%;
+    background-color: #f7f8fa;
+    padding: 8px 5px;
+    margin-bottom: 20px;
+}
+.upcoming-des {
+    flex-basis: 33.3333%;
+    padding: 0px 2px;
+}
+.upcoming-des marquee {
+    background-color: white;
+    color: grey;
+    line-height: 1.7;
+}
+.gallery-container {
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    margin: 30px 30px;
+}
+.gallery img {
+    margin: 2px;
+}
+.footer-container {
+    display: flex;
+    background-color: #25272e;
+    padding: 30px 10px;
+}
+.footer p {
+    margin-left: 55px;
+}
+.footer i {
+    color: #427900;
+}
+.footer {
+    flex-basis: 33.333% ;
+    text-align: left;
+    font-size: 14px;
+}
+.footer p, li {
+    color: #bbbbbb;
+}
+.footer ul {
+    list-style: none;
+}
+.useful-links {
+    flex-basis: 33.3333%;
+}
+.useful-links h5, .connect h5 {
+    font-size: 16px;
+    color: white;
+    border-bottom: 1px solid #444;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.connect {
+    flex-basis: 33.333%;
+    margin-left: 10px;
+}
+.connect ul {
+    margin: 5px;
+    padding:0px;
+}
+.connect li {
+    list-style: none;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.connect a {
+    border-radius: 50%;
+    background-color: #316dc3;
+    padding: 10px 0px;
+    padding-right: 4px;
+    margin: 0px;
+    text-align: center;
+    font-size: 13px;
+}
+.footer-bottom {
+    background-color: #316dd9;
+    color: white;
+}
+.footer-bottom p {
+    margin: 0px 0px;
+    font-size: 11px;
+    padding: 20px 30px;
+}
+
+
+
+
+
+
+
 
 
 
