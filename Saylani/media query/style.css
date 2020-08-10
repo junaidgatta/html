@@ -1,0 +1,33 @@
+body {
+    background-color: violet;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+.one {
+    border: 2px solid grey;
+}
+.two {
+    border: 2px solid grey;
+}
+.three,.four,.five {
+    border: 2px solid grey;
+}
+
+
+
+/* .two {
+    order: -1;
+} */
+.five {
+    order: -1;
+}
+
+
+@media only screen and (max-width: 600px){
+    body {
+        background-color: yellow;
+    }
+}
