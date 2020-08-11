@@ -10,6 +10,7 @@ body {
     position: fixed;
     right: 10px;
     bottom: 20px;
+    z-index: 1;
 }
 header {
     display: flex !important;
@@ -342,16 +343,7 @@ marquee {
         text-align: left;
         margin-bottom: 5px  ;
     }
+    .gallery img {
+        width: 100%;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
