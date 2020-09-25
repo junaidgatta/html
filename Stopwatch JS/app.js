@@ -35,4 +35,6 @@ function reset(){
     msecHeading.innerHTML = 0;
     secHeading.innerHTML = 0;
     minHeading.innerHTML = 0;
+    clearInterval(interval);
+    document.getElementById('start').disabled = false;
 }
